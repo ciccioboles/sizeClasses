@@ -12,6 +12,7 @@
 		FC4835D41C36E39200057FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4835D21C36E39200057FCD /* Main.storyboard */; };
 		FC4835D61C36E39300057FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4835D51C36E39300057FCD /* Assets.xcassets */; };
 		FC4835D91C36E39300057FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4835D71C36E39300057FCD /* LaunchScreen.storyboard */; };
+		FC4835E11C36F58700057FCD /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4835E01C36F58700057FCD /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC4835D51C36E39300057FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4835D81C36E39300057FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4835DA1C36E39300057FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4835E01C36F58700057FCD /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +56,12 @@
 		FC4835CD1C36E39200057FCD /* sizeClass2 */ = {
 			isa = PBXGroup;
 			children = (
-				FC4835CE1C36E39200057FCD /* AppDelegate.swift */,
 				FC4835D01C36E39200057FCD /* ViewController.swift */,
+				FC4835E01C36F58700057FCD /* DetailsVC.swift */,
 				FC4835D21C36E39200057FCD /* Main.storyboard */,
 				FC4835D51C36E39300057FCD /* Assets.xcassets */,
 				FC4835D71C36E39300057FCD /* LaunchScreen.storyboard */,
+				FC4835CE1C36E39200057FCD /* AppDelegate.swift */,
 				FC4835DA1C36E39300057FCD /* Info.plist */,
 			);
 			path = sizeClass2;
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4835D11C36E39200057FCD /* ViewController.swift in Sources */,
+				FC4835E11C36F58700057FCD /* DetailsVC.swift in Sources */,
 				FC4835CF1C36E39200057FCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				FC4835DF1C36E39300057FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
